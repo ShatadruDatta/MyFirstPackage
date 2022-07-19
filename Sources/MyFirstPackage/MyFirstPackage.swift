@@ -8,4 +8,9 @@ public struct MyFirstPackage {
     public func helloToYou() -> String {
         return "Hi, Shatadru"
     }
+    
+    public func calculate(a: Int, b: Int) -> String {
+        return "\(a * b) is the value"
+    }
 }
+
