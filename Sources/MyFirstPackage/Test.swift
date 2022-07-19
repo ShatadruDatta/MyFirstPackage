@@ -1,4 +1,4 @@
-public struct MyFirstPackage {
+public struct Test {
     public private(set) var text = "Hello, World!"
 
     public init() {
@@ -9,7 +9,7 @@ public struct MyFirstPackage {
         return "Hi, Shatadru"
     }
     
-    public func calculate(a: Int, b: Int) -> String {
+    public func calculateValue(a: Int, b: Int) -> String {
         return "\(a * b) is the value"
     }
 }
