@@ -9,7 +9,7 @@ public struct Test {
         return "Hi, Shatadru"
     }
     
-    public func calculateValue(a: Int, b: Int) -> String {
+    public func calculateVal(a: Int, b: Int) -> String {
         return "\(a * b) is the value"
     }
 }
